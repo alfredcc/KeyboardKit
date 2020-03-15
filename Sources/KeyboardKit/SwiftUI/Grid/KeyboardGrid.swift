@@ -46,7 +46,7 @@ public struct KeyboardGrid<Button: View>: View {
             ForEach(Array(rows.enumerated()), id: \.offset) {
                 self.gridRow(for: $0.element)
             }
-        }.padding(padding)
+        }
     }
 }
 
